@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.section-1 .container{
+    padding-top: 140px;
+    line-height: 60px;
+}
+
+.section-1 div h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.section-1 div p{
+    font-weight: 300;
+     font-size: 1.5rem;
+}
+.section-2 {
+    background-color:  #7510F7;
+    color: #fff;
+}
+.section-2 .container{
+    padding-top: 80px;
+    height: 100vh;
+}
+
+.section-2 div p{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.section-3 .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.avatar{
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.card{
+     border-radius: 15px;
+     border-color: #7510F7;
+     border-width: 2px;
+}
+
+.card .card-body h1{
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card .card-body h4{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.project-section .row .col-6{
+    border-radius: 15px;
+    background-color: #141c3a;
+    color: #fff
+}
+
+
+.project-section .row .project-heading h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+}
+.project-section .row .project-para p{
+    font-size: 18px;
+}
+
+.btn{
+    color: #fff;
+    border: 2px solid #7510F7;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #7510F7;
+}
+
+@media only screen and (max-width:768px){
+    .section-1 .container{
+        padding-top: 80px;
+        line-height: 30px;
+    }
+    .section-1 .container h1{
+        font-size: 25px;
+    }
+    .section-1 .container p{
+        font-size: 17px;
+    }
+    .avatar{
+        height: 140px;
+        width: 140px;
+    }
+    .section-2 .container{
+        padding-top: 60px;
+    }
+    .section-2 .container h1{
+        font-size: 25px;
+    }
+    .section-2 .container p{
+        font-size: 17px;
+    }
+    .section-2 .container p{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .section-3 .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card{
+        width: 16em!important;
+    }
+    .card-image{
+        height: 100px;
+        width: 100px;
+    }
+    .card .card-body h1{
+        font-size: 25px;
+    }
+    
+    .card .card-body h4{
+        font-size: 17px;
+    }
+    .card .card-body .card-text{
+        padding-bottom: 0!important;
+    }
+    .section-3 .container .row .col-auto {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .project-section .row .project-heading h1{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .project-section .row .project-para p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .btn{
+        color: #fff;
+        border: 2px solid #7510F7;
+        border-radius: 25px;
+        font-size: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 15px;
+    }
+}
